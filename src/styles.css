@@ -16,5 +16,25 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+
+}
+
+button {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: black;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  border-color: black;
+  background-color:white;
+  cursor: pointer;
+  outline: transparent;
+}
+
+button:disabled {
+ color: rgb(185, 178, 178);
 }
